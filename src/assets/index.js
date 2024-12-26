@@ -29,7 +29,8 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import php from "./tech/php.png"
+import avatar from './avatar.jpg'
 export {
   logo,
   backend,
@@ -59,4 +60,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  php,
+  avatar
 };

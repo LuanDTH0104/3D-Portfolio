@@ -39,19 +39,17 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <p className={styles.sectionSubText}>Giới thiệu</p>
+        <h2 className={styles.sectionHeadText}>Tổng quan.</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        Mình hiện đang là một nhà phát triển website với kinh nghiệm chính về Typescript và Javascript, đồng thời
+        mình cũng thực hiện những dự án phát triển trên nền tảng Wordpress. Mình đã có một số sản phẩm freelance cho 
+        các đối tượng khác nhau. Mong chúng mình có thể cùng hợp tác để biến các ý tưởng thành hiện thực
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

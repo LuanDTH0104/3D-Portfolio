@@ -23,38 +23,39 @@ import {
   jobit,
   tripguide,
   threejs,
+  php,
 } from "../assets";
 
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "Giới thiệu",
   },
   {
     id: "work",
-    title: "Work",
+    title: "Kinh nghiệm",
   },
   {
     id: "contact",
-    title: "Contact",
+    title: "Liên hệ",
   },
 ];
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Nhà phát triển Website",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Nhà phát triển ứng dụng điện thoại",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Lập trình viên Backend",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Freelancer",
     icon: creator,
   },
 ];
@@ -112,61 +113,50 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+  {
+    name: "php",
+    icon: php,
+  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Lập trình viên mảng ERP",
+    company_name: "Công ty TNHH I2Solution Viet Nam",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Tháng 6 năm 2023 - Tháng 9 năm 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Phát triển các mô-đun phần mềm ERP và MES của công ty phục vụ cho các nhà máy sản xuất của Hàn Quóc.",
+      "Phát triển các tài liệu phần mềm, tính năng theo yêu cầu của khách hàng",
+      "Phát triển nền tảng ứng dụng MES cho thiết bị máy quét của nhà máy.",
+      "Tham gia các buổi training về cách viết code và những khóa học liên quan của công ty.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Lập trình viên Java",
+    company_name: "Công ty TNHH Phần mềm FPT - FPT Software",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Tháng 9 năm 2022 - Tháng 5 năm 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Phát triển nền tảng website quản lý nội bộ dựa trên ngôn ngữ Java",
+      "Đào tạo các công nghệ Java Spring, Java Sercurity, Hibernate ORM",
+      "Tham gia các buổi training và khóa học của công ty.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Lập trình viên Freelancer",
+    company_name: "Công ty TNHH Pandora",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Tháng 4 năm 2024 - Hiện tại",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Phát triển website điều kiển các thiết bị IOT của công ty phát triển",
+      "Thực hiện việc viết tài liệu phần mềm, tài liệu thiết kế hệ thống.",
+      "Tạo giao diện trực quan 3D với ThreeJs giúp tạo giao diện thân thiện.",
     ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  }
 ];
 
 const testimonials = [
@@ -198,30 +188,30 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Toyota Long Biên",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Dự án được thực hiện cho khách hàng trên mã nguồn mở Wordpress. Website giúp thu hút khách hàng và giới thiệu những sản phẩm của xe oto của hãng.",
     tags: [
       {
-        name: "react",
+        name: "PHP",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "MySQL",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Wordpress",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://toyotalongbienn.com.vn",
   },
   {
-    name: "Job IT",
+    name: "InSync - Nền tảng tự động hóa thiết bị di động",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Team của mình đã phát triển InSync như một nền tảng hỗ trợ tạo các kịch bản tự động mô phỏng hành vi của con người.",
     tags: [
       {
         name: "react",
@@ -235,25 +225,29 @@ const projects = [
         name: "scss",
         color: "pink-text-gradient",
       },
+      {
+        name: ".Net",
+        color: "pink-text-gradient",
+      },
     ],
     image: jobit,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Best CV - Nền tảng tìm việc trực tuyến",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Một nền tảng kết nối ứng viên tiềm năng với nhà tuyển dụng, sử dụng trí tuệ nhân tạo như một công cụ giúp nhà tuyển dụng lọc tự động những ứng viên tiềm năng",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "nodejs",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "OpenAI",
         color: "pink-text-gradient",
       },
     ],

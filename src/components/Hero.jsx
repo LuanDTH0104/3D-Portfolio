@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import { avatar } from "../assets";
 
 const Hero = () => {
   return (
@@ -16,16 +17,18 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#915EFF]'>Adrian</span>
+            Xin chào, mình là <span className='text-[#915EFF]'>Luân</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop 3D visuals, user <br className='sm:block hidden' />
-            interfaces and web applications
+            Mình là một nhà phát triển website <br className='sm:block hidden' />
+            chuyên nghiệp
           </p>
         </div>
       </div>
-
-      <ComputersCanvas />
+      <div className="absolute top-[350px] md:top-[500px] flex justify-center w-full">
+        <img src={avatar} alt="" srcset="" className="max-w-[200px] md:max-w-[700px] rounded-sm" />
+      </div>
+      {/* <ComputersCanvas /> */}
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
